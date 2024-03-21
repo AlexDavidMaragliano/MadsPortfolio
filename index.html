@@ -4,18 +4,187 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Mads Katz Portfolio</title>
-        <!--The link below connects this html doc to the css style sheet-->    
-        <link rel="stylesheet" href="style.css"> 
-
-
-        <script src="script.js"></script>
+        <title>Mads Katz Portfolio</title>   
+        <link rel="stylesheet" href="style.css"> <!--Links this html doc to the css style sheet-->  
+        <script src="https://kit.fontawesome.com/f0ae7ce2ef.js" crossorigin="anonymous"></script> <!--Allows use of the icons-->
     </head>
-    <body>
-        <div id="header"></div>
-        <h1>Mads Katz</h1>
-        <h3>incredible human</h3>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img class="logo" src="Logo.jpg">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Incredible Human</p>
+            <h1>My name is <span>Mads</span><br>My cat is <span class="cat">Akame</span></h1>
+        </div>
+    </div>
+</div>
+<!-------------------------about-----------------------> 
+<!--This section will be a brief description of who---->
+<!--you are, your accomplishments, interests, etc.----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="C:\Users\Alex\OneDrive - buffalostate.edu\Attachments\MadsPortfolio\PlaceholderImage.jpg" alt="Placeholder for future image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a really cool person. I love many things, and many things love me. Because I am so loveable. 
+                   One time I even loved an ant. Not that theres anything wrong with that. Right? You agree, right? 
+                   Because theres not. Ants are incredible little creatures with beautiful eyes and legs. 
+                   I mean, they are so strong! They can lift stuff up. So yes, I loved an ant once. 
+                   Not only that, but I also once locked eyes with a cyclops. I was on the beach in Tahiti. 
+                   It was dusk, the sun was setting behind the ocean and I was alone. I sat down in the sand and started 
+                   making kissy faces at a crab I saw coming out of its burrow. Thats when I heard a noise like the one someone 
+                   makes when theyve just stubbed their toe. I looked up and saw her. Long brown hair, she was wearing a poncho. 
+                   It was beautiful. She turned to face me. I didnt mean to, but I gasped. I know she heard it. 
+                   I also know she saw me making kissy faces at the crabs. I was embarassed. I wanted to cry. 
+                   I wanted to make like the crabs and burrow. I would have burrowed a few feet down and then all the 
+                   way back to my room. But I am no crab. Instead I just said "hi." She didnt respond. We stared into 
+                   each others eyes for what felt like 5 minutes. Then I slowly got up and backed my way off the beach. 
+                   She didnt move once. I made it to my room and got in to bed but could not sleep. Every time I would 
+                   fall asleep, I would quickly be awoken by a horrific dream. It was the same dream every time. It was 
+                   her on the beach, but it wasnt the beach. It was more like we were on the edge of a volcano. She just 
+                   kept staring at me while making this high pitched noise. Like a bird. She started flapping her arms 
+                   like she would fly, but she didnt fly. Instead, eventually, her legs just seemed to give out and she 
+                   fell into the volcano. Thats when I wake up. I had that dream over and over. When morning finally came 
+                   I went back out to the beach and she was still there. Completely motionless. So I walked up to her and 
+                   asked if she was alright. No response. She didnt even blink. Her eyes fixed on a point straight ahead 
+                   and off into the distance. I asked again, no response. I gave her shoulder a poke. As soon as I made 
+                   contact she began gasping for air. She started crying. She told me she had been paralyzed! She said 
+                   she had stood there all night trapped in her thoughts! She was shaking and crying. I asked her if I 
+                   could help her but she would not look into my eyes. She was trying to keep her eyes closed so as not 
+                   to look at me. She wouldnt say why but she left in a hurry. Panicked. She ran off into the distance 
+                   and I never saw her again. I left Tahiti 3 days later.</p>
+
+                   <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App interfaces</li>
+                            <li><span>Web Dev</span><br>Web App Dev</li>
+                            <li><span>App Dev</span><br>Android/ IOS Apps</li>
+                        </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>Design Training</li>
+                            <li><span>2019-2021</span><br>Team Lead</li>
+                            <li><span>2017-2019</span><br>Design Exec</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>ET Institute</li>
+                            <li><span>2015</span><br>MBA</li>
+                            <li><span>2013</span><br>BA</li>
+                        </ul>
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------Works----------------------------------->
+<!--This may get switched out with the portfolio section below and-->
+<!--turned into something else. Maybe each of these could link out-->
+<!--to the pages that display more of the works in those------------>
+<!--particular categories. Or something similar--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="works-list">
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Creative Writing</h2>
+                <p>Tiny stinky ants running all over the window sills and kitchen counter. They keep grabbing our
+                    crumbs and taking them back to their little ant caves to eat with all their buddies! I hate that!
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-keyboard"></i>
+                <h2>Professional Writing</h2>
+                <p>Ant - noun - A small insect, often with a sting, that usually lives in a complex social colony with 
+                    one or more breeding queens. It is wingless except for fertile adults, which often form large mating swarms,
+                    and is proverbial for industriousness. Ants are eusocial insects of the family Formicidae and, along with the
+                    related wasps and bees, belong to the order Hymenoptera.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Poetry</h2>
+                <p>Ants keep coming in <br> They are eating all our food <br> I cant make them stop</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------Portfolio--------------------------->
+<!--Future plans for this section: add images of writings--->
+<!--you are proud of, poems written with fountain pens,----->
+<!--manuscripts, hand written first drafts, etc.------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:\Users\Alex\OneDrive - buffalostate.edu\Attachments\MadsPortfolio\PlaceholderImage.jpg">
+                <div class="layer">
+                    <h3>Writing</h3>
+                    <p>I write so much. So stinking much</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\Alex\OneDrive - buffalostate.edu\Attachments\MadsPortfolio\PlaceholderImage.jpg">
+            </div>
+            <div class="work">
+                <img src="C:\Users\Alex\OneDrive - buffalostate.edu\Attachments\MadsPortfolio\PlaceholderImage.jpg">
+            </div>
+        </div>
+    </div>
+</div>
 
 
-    </body>
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+
+
+</body>
 </html>
